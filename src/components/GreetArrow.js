@@ -7,7 +7,8 @@ import React from 'react'
 
 const GreetArrow = ()=>{
     return (
-        <h1>Hello World </h1>
+        <h1>Functional Component with Arrow Function</h1>
+        
     )
 }
 

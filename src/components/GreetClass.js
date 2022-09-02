@@ -2,15 +2,14 @@
 
 //Import {Component} along with react
 //class GreetClass extends Component(){  
-//     rendor(
-
+//     rendor()(
 //     )
 // }
 
 
-import React from "react";
+import React, {Component} from "react";
 
-class GreetClass extends React.Component(){
+class GreetClass extends Component{
     render(){
 
         return <h1>Hi, This is Class Component</h1>

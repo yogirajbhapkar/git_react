@@ -10,7 +10,9 @@ const GreetArrow2 = (props)=>{
         // <h1>Hello {props.name}. How Are You?</h1>,
         // <h1> Your Roll number is {props.rollNo} </h1>
         //OR
-        <h1>Hello {props.name}. How Are You? Your Roll number is {props.rollNo}</h1>
+        <h1>Hello {props.name}. How Are You? Your Roll number is {props.rollNo}
+        {props.children}</h1>
+        
     )
 }
 

@@ -13,6 +13,7 @@ import React from "react"
 
 const GreetArrow3 = (props)=>{
     return (
+        <h1>Element Created Using React.createElement() Method</h1>,
         // React.createElement('h1',null,'Element Created Using React.createElement() Method') //Null is for attribute
         React.createElement('h2', {id:'firstName'}, "Element created using create.Element method with attribute ")
         //Inspect in browser and check there will be id="FirstName" added in h2 tag 
