@@ -16,6 +16,14 @@ import ClassWish3 from './components/ClassWish3';
 import ClassWish4 from './components/ClassWish4';
 import ClassWish5 from './components/ClassWish5';
 
+// import ClassCount from './components/ClassCount';
+import ClassCountIncrBy5 from './components/ClassCountIncrBy5';
+
+import FunctionClick from './components/FunctionClick';
+import ClassState2 from './components/ClassState2';
+import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
+
 
 function App() {
   return (
@@ -26,9 +34,9 @@ function App() {
      
       {/* <GreetArrow2 name="Yogiraj" rollNo= "25" /> */}
       {/* //Reusing same component and adding children tag as below */}
-      <GreetArrow2 name="Pamasinh" rollNo= "21">  
+      {/* <GreetArrow2 name="Pamasinh" rollNo= "21">  
         <p>This is Para added</p> //This is a children tag. Access it in prop and render
-      </GreetArrow2>
+      </GreetArrow2> */}
       {/* <GreetArrow3/> */}
       {/* <GreetArrow4 firstName="Yogiraj" lastName="Bhapkar"></GreetArrow4> */}
 
@@ -40,6 +48,15 @@ function App() {
       {/* <ClassWish3></ClassWish3> */}
       {/* <ClassWish4 message="Hola!"></ClassWish4> */}
       {/* <ClassWish5></ClassWish5> */}
+
+      {/* <ClassCount/> */}
+      {/* <ClassCountIncrBy5/> */}
+
+
+      {/* <FunctionClick/> */}
+      {/* <ClassClick></ClassClick> */}
+      {/* <ClassState2/> */}
+      <EventBind></EventBind>
 
     </div>
   );

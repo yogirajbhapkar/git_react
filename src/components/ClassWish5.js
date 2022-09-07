@@ -21,6 +21,10 @@ class ClassWish5 extends Component {
     //Write a method for change state and use setState() inside it
 
     changeState() {
+        // this.state = {
+        //     msg: "This is new state"
+        // }              //This will change the state but it will not reflect on UI. T/F use setState() to update state
+
         this.setState ({
             msg: "My State is Changed"
         })
